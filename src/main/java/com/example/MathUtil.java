@@ -14,6 +14,7 @@ public class MathUtil {
         if(num1 >= 100 || num2 >= 100){
             throw new IllegalArgumentException("100以上の値は不正です");
         }
-        return Math.pow(num1, num2);
+        //return Math.pow(num1, num2);
+        return 0;
     }
 }
